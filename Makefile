@@ -38,5 +38,5 @@ clean:
 re: fclean all
 	
 compile:
-	@cc -Wall -Wextra -Werror main.c -L. -lftprintf -L/nfs/homes/gbussier/2Project/"2. printf"/libft -lft
+	@cc -Wall -Wextra -Werror main.c -L. -lftprintf -L ./libft -lft
 	@./a.out
