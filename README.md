@@ -10,10 +10,6 @@ The `ft_printf` function is a project that aims to implement a simplified versio
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-- [Supported Format Specifiers](#supported-format-specifiers)
-- [Example](#example)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## About
 
@@ -33,9 +29,10 @@ The `ft_printf` function accepts a format string and a variable number of argume
 
 ### Installation
 
+```bash
 git clone git@github.com:Bussiereg/ft_printf.git
 make
-make compile
+```
 
 ## Usage
 
@@ -43,3 +40,4 @@ The `ft_printf` function has the following prototype:
 
 ```c
 int ft_printf(const char *format, ...);
+```
